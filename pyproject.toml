@@ -1,0 +1,12 @@
+[project]
+name = "llm-zoomcamp"
+version = "0.1.0"
+description = "LLM Zoomcamp"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "minsearch>=0.1.0",
+    "openai>=2.41.1",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+]
