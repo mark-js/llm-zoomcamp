@@ -7,17 +7,12 @@
 		"dockerfile": "Dockerfile",
 		"context": ".."
 	},
-
 	"remoteUser": "user",
-
 	// "mounts": [],
-
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
-
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
@@ -27,14 +22,14 @@
 			]
 		}
 	},
-
 	"remoteEnv": {
 		"UV_LINK_MODE": "copy"
 	},
-	// "runArgs": ["--env-file", ".devcontainer/.env"],
-	
+	// "runArgs": [
+	// 	"--env-file",
+	// 	"${localWorkspaceFolder}/.env"
+	// ],
 	"postCreateCommand": "uv sync"
-
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }

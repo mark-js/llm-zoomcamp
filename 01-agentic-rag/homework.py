@@ -48,14 +48,9 @@ class LLMOpenAISettings(BaseSettings):
         extra="ignore",
     )
 
-    host: str
-    port: int
+    base_url: str
     model: str | None = None
     api_key: SecretStr | None = None
-
-    @property
-    def base_url(self) -> str:
-        return f"http://{self.host}:{self.port}"
 
 
 def ingest() -> list[dict[str, str]]:

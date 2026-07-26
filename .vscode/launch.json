@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "cwd": "${workspaceFolder}/02-vector-search"
+            "cwd": "${workspaceFolder}/04-evaluation"
         }
     ]
 }

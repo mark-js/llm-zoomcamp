@@ -3,7 +3,9 @@ FROM debian:trixie-slim
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /usr/local/bin/
 
 RUN apt-get update && apt-get install -y \
+    wget \
     curl \
+    procps \
     && rm -rf /var/lib/apt/lists/*
 
 RUN groupadd -g 1000 user && \
