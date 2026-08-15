@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "cwd": "${workspaceFolder}/04-evaluation"
+            "cwd": "${workspaceFolder}/05-monitoring"
         }
     ]
 }
