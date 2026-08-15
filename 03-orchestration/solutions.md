@@ -25,5 +25,5 @@ Vague, generic, or fabricated — the model guesses from training data
 
 ### Q6. Best Practices
 ```
-Use only RAG without agents for better performance
+Use traditional task-based workflows for predictability and auditability
 ```
